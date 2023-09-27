@@ -1,0 +1,8 @@
+### retrieves the list of customers
+GET http://localhost:3000/insient/customers 
+
+### retrieves list of orders for “customerId” customer
+GET  http://localhost:3000/insient/customers/2
+
+### retrieves total number of orders and total amount for each customer, sorted alphabetically by customer country
+GET http://localhost:3000/insient/summary
